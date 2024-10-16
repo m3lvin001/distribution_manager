@@ -1,0 +1,131 @@
+.links {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.8s;
+  color: white;
+}
+.links:hover {
+  background-color: white;
+  color: black;
+}
+.vendor-nav {
+  background-color: rgba(0, 0, 0, 0.048);
+}
+.vendors {
+  width: 98%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+}
+.vendor-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.vendors.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: unset;
+}
+.vendors.orders {
+  box-shadow: none;
+}
+.vendors.orders tr:hover{
+  background-color: #5f9ea0;
+}
+.vendors.orders thead tr:hover{
+  background-color: unset;
+}
+.box {
+  width: 40%;
+  height: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.082);
+  transition: 0.5s;
+}
+.box.product{
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.box.product.noheight{
+  height: unset;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.082);
+}
+.box.product.noheight.bshadow{
+  box-shadow: unset;
+}
+.box.product.noheight.noshadow:hover{
+ background-color:unset;
+}
+.box.product.noheight:active{
+  transform: unset;
+}
+.box:hover {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+.box:active {
+  transform: scale(0.9);
+}
+.box.input{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.box.input:hover{
+  background-color: unset;
+}
+table {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+}
+thead tr {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.082);
+}
+thead tr td {
+  padding: 10px;
+}
+tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.082);
+}
+td {
+  padding: 5px;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 10px auto;
+}
+.form-header {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.082);
+}
+.row1 td {
+padding: 2px;
+}
+.row1 table{
+  border: unset;
+}
+.row2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+.row2 label{
+  width: 50%;
+  font-weight: bold;
+  text-align: left;
+}

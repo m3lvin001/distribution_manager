@@ -1,0 +1,68 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image:url('../svgs/bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter:17px; 
+}
+.center{
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    background-color:#ffffffef;
+}
+.center span{
+    text-align:right;
+    font-size: large;
+    text-transform: capitalize;
+}
+.registerbtn{
+    background-color:#0d8bbdea;
+    color: #e0e0e0;
+}
+.registerbtn:hover{
+    background-color:rgba(2, 131, 182, 0.993);
+}
+.Login{
+    display: flex;
+    flex-direction: column;
+}
+.Login span ,.Login h3{
+    text-transform: capitalize;
+    color:#0d8bbdea ;
+}
+input,select,button{
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 2px solid #e0e0e0b2;
+    display: inline-block;
+}
+button:active{
+    transform: scale(0.9);
+    background-color: #e0e0e052;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+}
+.header{
+    background-image:url('../svgs/bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter:17px; 
+    color: #e0e0e0;
+}
+.nav{
+    background-color: #000000ad;
+    color: #00000015;
+}
